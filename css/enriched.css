@@ -1,0 +1,28 @@
+/* 
+CSS3 + vendor-specific styles
+
+-webkit	 	Safari
+-moz 	 	Firefox
+*/
+
+/* nav toggle
+--------------------------------------------- */
+
+#nav li a {
+	-webkit-transition: color .2s linear;
+	}
+#nav li a:hover {
+	color: rgba(255, 255, 255, 1);
+	}
+#nav li.selected a {
+	color: rgba(255, 255, 255, 1);
+	}
+
+/* modules
+--------------------------------------------- */
+
+div.mod {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	}
